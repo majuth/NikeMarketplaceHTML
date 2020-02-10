@@ -1,0 +1,329 @@
+body{
+padding: 0;
+margin: 0;
+}
+
+/* <<Navbar styles start here>> */
+
+.navbarlogo{
+width:20%;
+padding-left: 4%;
+padding-top: 6px;
+height: 73px;
+}
+
+.navtopicswidth{
+width:20%;
+padding-top: 5px;
+height: 73px;
+}
+
+
+#navbartotal{
+width:100%;
+text-align:center;
+table-layout: fixed;
+background-color: black;
+z-index: 9999;
+}
+
+@font-face {
+font-family:nav;
+src: url(fonts/nav.otf);
+}
+
+.navbartext{
+text-decoration: none;
+color: #F15A22;
+font-size: 230%;
+font-family:nav;
+letter-spacing: 1px;
+vertical-align: middle;
+}
+
+/* <<Navbar styles end here>> */
+
+
+
+/* <<<<Slideshow styles start here>>>> */
+
+#slider {
+opacity:1;
+transition: opacity 0.5s; 
+width: 100%;
+}
+
+/* transition time is time set inbetween slides in the javascript */
+
+#slider.fadeOut {
+opacity:0.1;
+}
+
+.slide{
+border: 0px;
+margin: 0px;
+font-size: 0em;
+padding-top: 85px;
+}
+
+/* <<<<Slideshow styles end here>>>> */
+
+
+
+/* <<Learn more styles start here>> */
+
+.table1{
+width: 100%;
+margin: 0px;
+border: 0px;
+border-collapse: collapse;
+border-spacing: 0;
+background: url("../pics/spanback.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+/* Font for "Items for all genders and sizes" cell and "High quality materials used by the best teams" cell */
+
+@font-face {
+font-family: calm;
+src: url(fonts/KeepCalm-Medium.ttf)
+}
+
+/* "Items for all genders and sizes" cell */
+
+.table1cell1{
+width: 50%;
+text-align: center;
+padding-top: 15%;
+padding-bottom: 15%;
+padding-left: 2%;
+padding-right: 2%;
+background-color: rgba(120, 120, 120, 0.5);
+margin: 0px;
+border: 0px;
+font-family: calm;
+font-size: 1.2em;
+color: white;
+text-shadow: 2px 2px 15px #000000, -2px -2px 15px black;
+line-height: 25px;
+}
+
+/* "High quality materials used by the best teams" cell */
+
+.table1cell2{
+width: 50%;
+text-align: center;
+padding-top: 15%;
+padding-bottom: 15%;
+padding-left: 2%;
+padding-right: 2%;
+background-color: rgba(120, 120, 120, 0.5);
+margin: 0px;
+border: 0px;
+font-family: calm;
+font-size: 1.2em;
+color: white;
+text-shadow: 2px 2px 15px #000000, -2px -2px 15px black;
+line-height: 25px;
+}
+
+/* Styles for learn more button */
+
+.learnmore{
+background-color: rgba(128, 128, 128, 0.3);
+border-radius:0px;
+color: #D8D8D8;
+font-family: 'calm';
+font-size: 15px;
+text-decoration: none;
+cursor: pointer;
+border-color: #B8B8B8;
+border-width: 0.2em;
+border-style: solid;
+text-shadow: 0px 0px 6px #303030;
+}
+
+/* Changes style of learnmore button when hovering over and when active */
+
+.learnmore:hover {
+background-color: rgba(128, 128, 128, 0.8);
+box-shadow: 1px 1px 5px #595959,  -1px -1px 5px #595959;
+}
+
+.learnmore:active {
+background-color: rgba(128, 128, 128, 1);
+box-shadow: 1px 1px 15px #595959,  -1px -1px 15px #595959;
+}
+
+/* <<Learn more styles end here>> */
+
+
+
+/* <<Footer styles start here>> */
+/* Font for the footer */
+
+@font-face {
+font-family: square;
+src: url(fonts/square.ttf)
+}
+
+.footer{
+background-color: black;
+color: white;
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 1.5%;
+padding-bottom: 1%;
+}
+
+.footertable{
+width: 100%;
+text-align: center;
+}
+
+/* Smedia styles is for the table cells of the socialmedia picture hyperlinks */
+
+.smedia{
+padding-top: 20px;
+width: 20%;
+}
+
+.copyright{
+text-align: center;
+font-family: square;
+}
+
+/* <<Footer styles end here>> */
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Kids, Men, and Women Webpage styles start here>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+kidscontent{
+background-color: white;
+}
+
+.gselect{
+padding-top: 25px;
+width: 100%;
+}
+
+#selector{
+padding-top: 25px;
+}
+
+#selecttitle{
+font-family: beb;
+text-align: center;
+font-size: 3em;
+}
+
+/* Cell width for the boy and girl selectors */
+.gselectcell{
+width: 30%;
+text-align: center;
+font-family: beb;
+color: black;
+line-height: 1;
+}
+
+/* extra space in that row */
+
+gselectcellsp{
+width: 20%;
+}
+
+.gselect a{
+display:block;
+text-decoration:none;
+}
+
+@font-face {
+font-family: beb;
+src: url(fonts/BebasNeue.otf)
+}
+
+.gselecttext{
+text-align: center;
+font-size: 2.5em;
+font-family: beb;
+text-decoration: none;
+}
+
+/* Main Subtitle for all section even though it says boys*/
+
+#boys{
+padding-top: 150px;
+}
+
+.boysubtitle{
+text-align: center;
+font-size: 3em;
+font-family: beb;
+color: black;
+}
+
+/* Main navbar for all sections even though it says boys */
+
+.boysnbtext{
+text-align: center;
+font-size: 2em;
+font-family: beb;
+text-decoration: none;
+}
+
+.boysnbtd{
+width:15%;
+text-align: center;
+}
+
+.imgauto{
+width:auto;
+height:200px;
+}
+
+.blackhyperlink:link {
+text-decoration: none;
+color: black;
+}
+.blackhyperlink:visited {
+text-decoration: none;
+color: black;
+}
+.blackhyperlink:hover {
+text-decoration: underline;
+color: black;
+}
+.blackhyperlink:active {
+text-decoration: none;
+color: black;
+}
+
+.boystext1{
+text-align: center;
+font-size: 1.5em;
+font-family: beb;
+text-decoration: none;
+}
+
+.price{
+text-align: center;
+font-size: 1.3em;
+font-family: beb;
+text-decoration: none;
+color: #F15A22;
+}
+
+.itembtd{
+width:15%;
+text-align: center;
+line-height: 1px;
+}
+
+.notice{
+font-size: 20px;
+font-family: square;
+color: gray;
+text-align: center;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Kids, Men, and Women Webpage styles end here>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */

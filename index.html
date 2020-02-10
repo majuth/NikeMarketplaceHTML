@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Nike Inc.</title>
+ <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/styles1.css">
+  <link rel="shortcut icon" href="pics/nike.ico">
+</head>
+<body>
+<!--Navbar starts Here-->
+<table id="navbartotal" style="position: fixed; top: 0px; left: 0px;">
+  <tr>
+   <td class="navtopicswidth"><a class="navbartext" href="kids.html">Kids</a></td>
+   <td class="navtopicswidth"><a class="navbartext" href="men.html">Men</a></td>
+   <td class="navbarlogo"><a class="navbartext" href="#"><img src="pics/nikeorange.png" width="167" height="62" alt="nikesymbolorange"></a></td>
+   <td class="navtopicswidth"><a class="navbartext" href="women.html">Women</a></td>
+   <td class="navtopicswidth"><a class="navbartext" href="aboutus.html">About us</a></td>
+  </tr>
+</table>
+
+<div id="svg-container" style="width:100%;">
+ <svg width='100%' viewBox="0 0 100 5" preserveAspectRatio="none" style="position: fixed; top: 82px; left: 0px; z-index: 9999;">
+   <line x1="0" y1="0" x2="38.2%" y2="0" style="stroke:#F15A22;stroke-width:1%" />
+   <line x1="38.1%" y1="0" x2="41.3%" y2="3.9" style="stroke:#F15A22;stroke-width:0.5%" />
+   <line x1="41.2%" y1="3.85" x2="58.8%" y2="3.85" style="stroke:#F15A22;stroke-width:0.5%" />
+   <line x1="58.7%" y1="3.9" x2="61.9%" y2="0" style="stroke:#F15A22;stroke-width:0.5%" />
+   <line x1="61.8%" y1="0" x2="100%" y2="0" style="stroke:#F15A22;stroke-width:1%" />
+   <polygon points="38.5,0 41.4,3.5 58.6,3.5 61.5,0" style="fill:black;stroke:black;stroke-width:0.5%" />
+ </svg>
+<!--Navbar ends Here-->
+</div>
+<div>
+<div class="slide">
+<img id="slider" src="pics/nikeflame1.jpg" alt="slideshowpics">
+<script>
+var imgArray = [
+    'pics/shoes1.jpg',
+    'pics/nikeflame2.jpg',
+    'pics/shoesv2.jpg'],
+    curIndex = 0;
+    imgDuration = 8000;
+
+function slideShow() {
+    document.getElementById('slider').className += "fadeOut";
+    setTimeout(function() {
+        document.getElementById('slider').src = imgArray[curIndex];
+        document.getElementById('slider').className = "";
+    },500);
+    curIndex++;
+    if (curIndex == imgArray.length) { curIndex = 0; }
+    setTimeout(slideShow, imgDuration);
+}
+slideShow();
+</script>
+<!--500 value is time between transition-->
+</div>
+<div style="line-height: 70%">
+
+<table class="table1">
+
+ <tr>
+
+  <td class="table1cell1"> <p>Items for all genders and sizes</p>
+  <form action="kids.html">
+      <input type="submit" value="Learn More" class="learnmore">
+  </form>
+  </td>
+
+  <td class="table1cell2"> <p>High quality materials used by the best players</p>
+  <form action="aboutus.html#quality">
+      <input type="submit" value="Learn More" class="learnmore">
+  </form>
+  </td>
+
+ </tr>
+
+</table>
+
+</div>
+<!--Footer starts here-->
+<div class="footer">
+
+<table class="footertable">
+
+ <tr>
+
+  <td colspan="6"> <img width="126" height="45" src="pics/nikewhite.png" alt="nikesymbolwhite"> </td>
+
+ </tr>
+
+ <tr>
+
+  <td style="width: 10%"> </td>
+  <td class="smedia"> <a href="https://twitter.com/nike" target="_blank"><img src="pics/twitter.png" alt="twitterlink" width="160" height="40"></a> </td>
+  <td class="smedia"> <a href="https://www.facebook.com/nike" target="_blank"><img src="pics/facebook.png" alt="facebooklink" width="191" height="40"></a> </td>
+  <td class="smedia"> <a href="https://www.youtube.com/user/nike" target="_blank"><img src="pics/youtube2.png" alt="youtubelink" width="191" height="40"></a> </td>
+  <td class="smedia"> <a href="https://instagram.com/nike/" target="_blank"><img src="pics/instagram.png" alt="instagramlink" width="201" height="40"></a> </td>
+  <td style="width: 10%"> </td>
+
+ </tr>
+
+</table>
+
+<table class="footertable">
+
+ <tr>
+
+  <td style="text-align:right; vertical-align: middle">_________________________________</td>
+  <td style="text-align:center; font-family: square; font-size: 30px; vertical-align:bottom; padding-top: 13px; width: 300px;"> Proud Sponsor of: </td>
+  <td style="text-align:left; vertical-align: middle">_________________________________</td>
+
+ </tr>
+
+</table>
+
+<table class="footertable" style="padding-top: 10px; padding-bottom: 10px;">
+
+ <tr>
+
+  <td style="width: 25%">  </td>
+  <td style="width: 10%"> <a href="http://www.rolltide.com/sports/m-baskbl/alab-m-baskbl-body.html" target="_blank"><img src="pics/CrimsonTideAlogo.png" alt="Crimson Tide" width="40" height="40"></a> </td>
+  <td style="width: 10%"> <a href="http://www.fcbarcelona.com/" target="_blank"><img src="pics/fcb.png" alt="Fcb Barcelona" width="40" height="40"></a> </td>
+  <td style="width: 10%"> <a href="http://www.nfl.com/" target="_blank"><img src="pics/nfl.png" alt="nfl" width="35" height="47"></a> </td>
+  <td style="width: 10%"> <a href="http://www.psg.fr/en/Accueil/0/Home" target="_blank"><img src="pics/psg.png" alt="Paris Saint-Germain F.C." width="40" height="40"></a> </td>
+  <td style="width: 10%"> <a href="http://www.icc-cricket.com/cricket-world-cup/teams/india" target="_blank"><img src="pics/in.png" alt="India Cricket Team" width="40" height="40"></a> </td>
+  <td style="width: 25%">  </td>
+
+ </tr>
+
+ <tr>
+
+  <td colspan="7" style="text-align:center; vertical-align: middle;"> _________________________________________________________________________________________________________ </td>
+
+ </tr>
+
+</table>
+
+<p class="copyright"> 2015 Nike, Inc. All Rights Reserved </p>
+</div>
+</div>
+<!--Footer ends here-->
+</body>
+</html>

@@ -1,0 +1,129 @@
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<About us styles start here>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#head1{
+font-family: beb;
+text-align: center;
+font-size: 3em;
+padding-top: 600px;
+color: white;
+text-shadow: 1px 1px 6px #000000, -1px -1px 6px black;
+}
+
+#fintro{
+font-size: 1em;
+text-align: center;
+font-family: square;
+color: white;
+text-shadow: 1px 1px 6px #000000, -1px -1px 6px black;
+}
+
+#forumpic{
+background-image: url("../pics/forum3.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+margin-top: 35px;
+}
+
+#quality{
+background-image: url("http://content.nike.com/content/dam/one-nike/en_lu/FA15/Running/Odyssey/Odyssey_CDP_Desktop_P6.jpg.transform/full-screen/image.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+#quality2{
+background-size: 100%;
+background-repeat: no-repeat;
+padding-top: 230px;
+padding-bottom: 215px;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+#comm{
+background-image: url("../pics/community.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+#comm2{
+background-size: 100%;
+background-repeat: no-repeat;
+padding-top: 95px;
+padding-bottom: 85px;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+#song{
+background-image: url("../pics/songs.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+#song2{
+background-size: 100%;
+background-repeat: no-repeat;
+padding-top: 95px;
+padding-bottom: 85px;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+.qu{
+font-size: 2.5em;
+text-align: center;
+font-family: square;
+color: white;
+text-shadow: 1px 1px 6px #000000, -1px -1px 6px black;
+padding-bottom: 15px;
+}
+
+.quq{
+font-size: 2.3em;
+text-align: center;
+font-family: stitle;
+color: white;
+text-shadow: 1px 1px 6px #000000, -1px -1px 6px black;
+padding-bottom: 15px;
+line-height: 40px;
+letter-spacing: 2px;
+}
+
+.su{
+font-size: 2.5em;
+text-align: center;
+font-family: square;
+color: white;
+text-shadow: 1px 1px 6px #000000, -1px -1px 6px black;
+padding-bottom: 15px;
+}
+
+@font-face {
+font-family: stitle;
+src: url(fonts/imagine_font.ttf);
+}
+
+.songs{
+text-align: center;
+font-family: stitle;
+font-size: 1.5em;
+margin: 0;
+padding-top: 0;
+padding-left: 0;
+padding-right: 0;
+padding-bottom: 10px;
+color: white;
+text-shadow: 1px 1px 6px #000000, -1px -1px 6px black;
+}
+
+#songchart{
+margin-left: auto;
+margin-right: auto;
+}
+
+#songchart td{
+padding: 10px;
+width: 25%;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<About us styles end here>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
